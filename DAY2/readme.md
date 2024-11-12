@@ -1,26 +1,26 @@
-Day 3: Arithmetic Operators #1
-Task: Perform basic arithmetic operations using two user inputs.
-Description:
-In this task, you will use arithmetic operators to perform calculations based on user input. The program should ask for two numbers and then perform addition, subtraction, multiplication, and division.
+# Day 2: Basic Arithmetic Operations
 
-Example:
+## Task: Use Python to perform basic arithmetic operations.
 
-python
-Copy code
-# Taking two numbers as input
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the second number: "))
+### Description:
+Python allows you to perform basic mathematical operations such as addition, subtraction, multiplication, and division using operators from the user. The result can be displayed using the print() function.
 
-# Performing arithmetic operations
-sum_result = num1 + num2
-difference_result = num1 - num2
-product_result = num1 * num2
-quotient_result = num1 / num2 if num2 != 0 else "Undefined (cannot divide by zero)"
+### Example:
+```python
+# Addition
+print(5 + 3)
 
-# Printing the results
+# Subtraction
+print(10 - 4)
 
-Enter the second number: 5
-The sum of 10.0 and 5.0 is: 15.0
-The difference between 10.0 and 5.0 is: 5.0
-The product of 10.0 and 5.0 is: 50.0
-The quotient of 10.0 and 5.0 is: 2.0
+# Multiplication
+print(6 * 7)
+
+# Division
+print(20 / 4)
+
+Output:
+8
+6
+42
+5.0
