@@ -1,0 +1,6 @@
+n=int(input("enter the number 1"))
+m=int(input("enter the number 2"))
+print(m+n)
+print(m-n)
+print(m*n)
+print(m/n)
