@@ -1,4 +1,4 @@
 first=input("enter the firt name")
 last=input("enter the last name")
-str=first+" "+last
+str="welcome"+first+" "+last
 print(str)
