@@ -4,8 +4,7 @@ Description:Write a Python program that continuously asks the user for a number 
 
 
 
-
-cumulative_sum = 0
+sum = 0
 
 while True:
  
@@ -14,5 +13,5 @@ while True:
         break 
     
     
-    cumulative_sum += number
-print(f"The total sum of positive numbers is: {cumulative_sum}")
+    sum += number
+print(f"The total sum of positive numbers is: {sum}")
